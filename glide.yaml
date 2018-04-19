@@ -1,0 +1,14 @@
+package: .
+import:
+- package: github.com/Shopify/sarama
+  version: v1.16.0
+- package: github.com/Sirupsen/logrus
+  version: v1.0.5
+- package: github.com/arizz96/connect-kafka
+  subpackages:
+  - internal/kafka
+- package: github.com/satori/go.uuid
+  version: v1.2.0
+- package: github.com/segmentio/connect
+- package: github.com/tj/docopt
+  version: v1.0.0

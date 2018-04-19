@@ -1,0 +1,65 @@
+hash: 348ce7f98d2ac034864c03e50a24bb48d8694c770e1fd3424012a7139b4248a3
+updated: 2018-04-19T17:05:43.674027+02:00
+imports:
+- name: github.com/arizz96/connect-kafka
+  version: e8b851ae541b87562714f654822ee6478edebbce
+  subpackages:
+  - internal/kafka
+- name: github.com/bmizerany/pat
+  version: 6226ea591a40176dd3ff9cd8eff81ed6ca721a00
+- name: github.com/davecgh/go-spew
+  version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
+  subpackages:
+  - spew
+- name: github.com/dustin/go-humanize
+  version: bb3d318650d48840a39aa21a027c6630e198e626
+- name: github.com/eapache/go-resiliency
+  version: ea41b0fad31007accc7f806884dcdf3da98b79ce
+  subpackages:
+  - breaker
+- name: github.com/eapache/go-xerial-snappy
+  version: bb955e01b9346ac19dc29eb16586c90ded99a98c
+- name: github.com/eapache/queue
+  version: 093482f3f8ce946c05bcba64badd2c82369e084d
+- name: github.com/gohttp/app
+  version: 45d589b2ac15fc6ba8f0bfb33313bcbb4011e455
+- name: github.com/gohttp/logger
+  version: 20658b1a61939fb8c67be765923d5fc63ccfcaf0
+- name: github.com/gohttp/response
+  version: 159d23d579078615ac559b432c0d0dc390d8ff5c
+- name: github.com/golang/snappy
+  version: 553a641470496b2327abcac10b36396bd98e45c9
+- name: github.com/justinas/alice
+  version: 03f45bd4b7dad4734bc4620e46a35789349abb20
+- name: github.com/pierrec/lz4
+  version: ed8d4cc3b461464e69798080a0092bd028910298
+- name: github.com/pierrec/xxHash
+  version: a0006b13c722f7f12368c00a3d3c2ae8a999a0c6
+  subpackages:
+  - xxHash32
+- name: github.com/rcrowley/go-metrics
+  version: d932a24a8ccb8fcadc993e5c6c58f93dac168294
+- name: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+- name: github.com/segmentio/connect
+  version: 3421778c83fe63dd36eec74d25e54415aeb526b7
+  subpackages:
+  - internal/api
+- name: github.com/segmentio/go-log
+  version: 9c7ea0f744953ff5220087609a8525790dc01d8b
+- name: github.com/Shopify/sarama
+  version: f7be6aa2bc7b2e38edf816b08b582782194a1c02
+- name: github.com/Sirupsen/logrus
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
+- name: github.com/tj/docopt
+  version: c8470e45692f168e8b380c5d625327e756d7d0a9
+- name: golang.org/x/crypto
+  version: d6449816ce06963d9d136eee5a56fca5b0616e7e
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 3ccc7e5779793fd54564baf60c51bf017955e0ba
+  subpackages:
+  - unix
+  - windows
+testImports: []
