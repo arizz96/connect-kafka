@@ -7,9 +7,9 @@ clean:
 
 docker:
 	@./package.sh linux > /dev/null
-	@docker build -t segment/connect-kafka . > /dev/null
+	@docker build -t arizz96/connect-kafka . > /dev/null
 
 docker-push: docker
-	@docker push segment/connect-kafka
+	@docker push arizz96/connect-kafka
 
 .PHONY: clean docker

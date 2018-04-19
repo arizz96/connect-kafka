@@ -84,7 +84,7 @@ Options:
 Below is an example to connect to a Heroku Kafka in a public space (via SSL):
 
 ```bash
-go get -u github.com/segment-integrations/connect-kafka
+go get -u github.com/arizz96/connect-kafka
 heroku config:get KAFKA_URL -a kafka-integration-demo  # copy the kafka broker urls into command below
 heroku config:get KAFKA_TRUSTED_CERT -a kafka-integration-demo > kafka_trusted_cert.cer
 heroku config:get KAFKA_CLIENT_CERT -a kafka-integration-demo > kafka_client_cert.cer
