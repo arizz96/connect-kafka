@@ -3,7 +3,7 @@ package main
 import (
 	_ "net/http/pprof"
 
-	"github.com/segmentio/connect"
+	"github.com/arizz96/connect"
 )
 
 const (
